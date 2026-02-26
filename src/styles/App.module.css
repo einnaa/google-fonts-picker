@@ -1,10 +1,12 @@
 /* Main container */
 .wrapper {
-  min-height: 100vh;
+  height: 100vh;
   background: #080808;
   color: #fff;
   font-family: monospace;
   padding: 32px 24px;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .container {

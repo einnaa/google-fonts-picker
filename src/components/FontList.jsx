@@ -12,7 +12,7 @@ export function FontList({ title, fonts, selected, onSelect, color }) {
 
   useEffect(() => {
     const el = listRef.current?.querySelector(`[data-font="${selected}"]`);
-    el?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    el?.scrollIntoView({ block: "nearest", behavior: "auto" });
   }, [selected]);
 
   return (
